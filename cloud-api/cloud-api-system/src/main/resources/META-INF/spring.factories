@@ -1,0 +1,5 @@
+org.springframework.boot.autoconfigure.EnableAutoConfiguration=\
+  com.ordering.system.api.factory.RemoteUserFallbackFactory,\
+  com.ordering.system.api.factory.RemoteLogFallbackFactory, \
+  com.ordering.system.api.factory.RemoteFileFallbackFactory, \
+  com.ordering.system.api.factory.RemoteMenuFallbackFactory

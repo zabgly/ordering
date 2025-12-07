@@ -1,0 +1,6 @@
+org.springframework.boot.autoconfigure.EnableAutoConfiguration=\
+  com.ordering.common.security.config.WebMvcConfig,\
+  com.ordering.common.security.service.TokenService,\
+  com.ordering.common.security.aspect.PreAuthorizeAspect,\
+  com.ordering.common.security.aspect.InnerAuthAspect,\
+  com.ordering.common.security.handler.GlobalExceptionHandler
